@@ -1,0 +1,58 @@
+body{
+    color:#333333;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.main-content{
+    flex-grow: 1;
+}
+
+footer{
+    color:#888888;
+    border-top: 1px solid rosybrown;
+    margin-top: 16px;
+    padding: 16px 0;
+    text-align: center;
+}
+
+header{
+    margin-top:60px;
+    margin-bottom: 48px;
+    text-align: center;
+}
+
+h1{
+    font-size: 30px;
+    margin-bottom:16px;
+}
+
+header a {
+    text-decoration: none;
+    color: #888888;
+    margin-right : 16px;
+}
+
+.theImage{
+    width: 250px;
+}
+
+.input-container{
+    background: transparent;
+    border: 2px rosybrown solid ;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.input-button{
+    background: rosybrown;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
