@@ -3,7 +3,6 @@ console.log('client side javascript file is loaded')
 const getWeather =(address) => {fetch('http://localhost:3000/get-weather?address='+address).then((response) => {
     response.json().then((data) => {
         if (data.err){
-            console.log(data.err)
             doc1.textContent = data.err;
         }else {
             doc1.textContent= data.Location_name;
