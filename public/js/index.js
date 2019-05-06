@@ -1,6 +1,6 @@
 console.log('client side javascript file is loaded')
 
-const getWeather =(address) => {fetch('http://localhost:3000/get-weather?address='+address).then((response) => {
+const getWeather =(address) => {fetch('https://lovisgod-weather-app.herokuapp.com/get-weather?address='+address).then((response) => {
     response.json().then((data) => {
         if (data.err){
             doc1.textContent = data.err;
